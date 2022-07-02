@@ -1,0 +1,167 @@
+@media (max-width: 1230px) {
+	/* -----USER_LOGO------------------------------------ */
+		.user_logo {
+			display: none;
+		}
+	/* -----Header------------------------------------ */
+		.header_nav {
+			margin: 0 0 50px 0px;
+		}
+		.header_row {
+			flex-direction: column;
+			column-gap: 20px;
+		}
+		.header_content {
+			margin: 0px 0;
+		}
+		.header_content p {
+			font-size: 20px;
+			margin: 0 0 15px 0;
+		}
+		.header_img {
+			text-align: center;
+		}
+	/* -----Nav------------------------------------ */
+		.nav_list {
+			display: none;
+		}
+		.nav.open .nav_list {
+			background-color: rgb(189, 197, 200);
+			padding: 46px 30px;
+			flex-direction: column;
+			row-gap: 40px;
+			font-weight: 600;
+			font-size: 25px;
+			position: fixed;
+			display: flex;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			top: 0;
+		}
+		.nav_link.active {
+			color: #090909;
+		}
+		.nav_link {
+			color: #828282;
+		}
+		.nav_button {
+			display: block;
+			position: fixed;
+			z-index: 9;
+			top: 46px;
+			right: 30px;
+		}
+		.project + .project {
+			margin: 55px 0;
+		}
+	}
+	
+	/* -----Media__700px------------------------------------ */
+	@media (max-width: 700px) {
+		html,
+		body {
+			background-color:rgba(228, 229, 234, 0.99);
+		}
+	/* -----USER_LOGO------------------------------------ */
+		.doni_logo {
+			display: none;
+		}
+		.logo {
+			padding: 4px 0 4px 0;
+			position: relative;
+			line-height: 100%;
+			color: #000;
+			font-weight: 700;
+			font-size: 32px;
+		}
+		.logo::after {
+			background-color: #FDA300;
+			border-radius: 50%;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			content: "";
+			width: 9px;
+			height: 9px;
+		}
+		.user_logo {
+			display: block;
+			padding: 0 12px 4px 0;
+			position: relative;
+			line-height: 100%;
+			color: rgba(40, 47, 45, 0.99);
+			border-radius: 40%;
+			font-weight: 900;
+			font-size: 38px;
+			font-family: 'Shadows Into Light', cursive;
+		}
+		.user_span {
+			font-size: 700px;
+			font-family: 'Shadows Into Light', cursive;
+		}
+	/* ----Nav------------------------------------ */
+		.nav.open .nav_list {
+			background-color: #fff;
+			padding: 46px 30px;
+			flex-direction: column;
+			row-gap: 40px;
+			font-weight: 600;
+			font-size: 20px;
+			position: fixed;
+			display: flex;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			top: 0;
+		}
+	/* ----Header_content------------------------------------ */
+		.header_title {
+			font-size: 34px;
+			line-height: 130%;
+		}
+		.header_title span {
+			font-size: 28px;
+			line-height: 120%;
+		}
+	/* -----Serives------------------------------------ */
+		.services {
+			padding: 60px 30px;
+		}
+		.services_development {
+			margin: 20px 0;
+		}
+	/* -----Portfolio------------------------------------ */
+		.portfolio {
+			padding: 50px 0;
+		}
+		.portfolio_title {
+			margin: 0 0 60px 0;
+		}
+		.project_img {
+			margin: 0 0 30px 0;
+		}
+	/* ----Footer------------------------------------ */
+		.contacts {
+			padding: 60px 0;
+		}
+		.contacts_title {
+			margin: 0 0 20px 0;
+		}
+		.contacts_content {
+			margin: 0 0 20px 0;
+		}
+		.contacts_button {
+			margin: 0 0 70px 0;
+		}
+		.contacts_social {
+			column-gap: 51px;
+			margin: 0 0 20px 0;
+		}
+	
+	}
+	@media (max-width: 1235px) {
+		._ibg {
+			margin: 0 0 15px 0;
+		}
+	}
